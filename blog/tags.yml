@@ -1,4 +1,34 @@
-hello:
-  label: Hello
-  permalink: /hello
-  description: Hello tag description
+literature:
+  label: Children's Literature
+  permalink: /literature
+  description: Research and essays on children's literature
+
+culture:
+  label: Culture
+  permalink: /culture
+  description: Cross-cultural perspectives and experiences
+
+japanstudy:
+  label: Study in Japan
+  permalink: /japanstudy
+  description: Life and study as a foreigner in Japan
+
+translation:
+  label: Translation
+  permalink: /translation
+  description: Thoughts on translation and interpretation
+
+travel:
+  label: Travel
+  permalink: /travel
+  description: Travel experiences in Japan and beyond
+
+research:
+  label: Research
+  permalink: /research
+  description: Academic research and methodology
+
+traditions:
+  label: Traditions
+  permalink: /traditions
+  description: Japanese cultural traditions
