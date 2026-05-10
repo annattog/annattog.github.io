@@ -32,7 +32,7 @@ const config: Config = {
   // may want to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: 'en',
-    locales: ['en', 'ru', 'ja'],
+    locales: ['en', 'ja', 'ru'],
   },
 
   presets: [
@@ -52,11 +52,7 @@ const config: Config = {
             type: ['rss', 'atom'],
             xslt: true,
           },
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
-          // Useful options to enforce blogging best practices
+          blogSidebarCount: 10,
           onInlineTags: 'warn',
           onInlineAuthors: 'warn',
           onUntruncatedBlogPosts: 'warn',
@@ -88,6 +84,7 @@ const config: Config = {
           label: 'Documents',
         },
         { to: '/blog', label: 'Blog', position: 'left' },
+        { to: '/blog/archive', label: 'Archive', position: 'left' },
         {
           href: 'https://github.com/annattog',
           label: 'GitHub',
